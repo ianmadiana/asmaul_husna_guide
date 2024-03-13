@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                               fontSize: 18,
                             ),
                           ),
-                          const SizedBox(height: 8),
+                          const SizedBox(height: 9),
                           Text(
                             allData[index].arab!,
                             textAlign: TextAlign.center, // Arabic text
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                                 fontSize: 38,
                                 fontWeight: FontWeight.bold),
                           ),
-                          const SizedBox(height: 8),
+                          const SizedBox(height: 9),
                           Text(
                             allData[index].arti!,
                             textAlign: TextAlign.center, // Meaning
